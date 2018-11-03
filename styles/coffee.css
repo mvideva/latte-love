@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/*HTML Styles*/
+
+body {
+	background-color: #E2FFA8;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+	color: #FFF;
+	text-decoration: none;
+	padding-left: 10px;
+	font-size: 40px;
+	font-weight: lighter;
+}
+
+
+p {
+	background-color: #FAFEA9;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 24px;
+	font-weight: lighter;
+	clear: left;
+	color: #BB5E00;
+}
+
+
+table {
+	color: #000;
+	background-color: #DC790C;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	width: auto;
+	height: 500px;
+	text-align: center;
+	vertical-align: middle;
+}
+th {
+	color: #FAFEA9;
+	background-color: #DC790C;
+	width: 115px;
+}
+td {
+	color: #DC790C;
+	background-color: #FAFEA9;
+	height: 100px;
+	text-align: center;
+}
+
+
+
+/*Layout Styles*/
+
+#wapper {
+	background-color: #CCFF66;
+	padding: 10px;
+	width: 1200px;
+	border: 3px solid #92B40C;
+	margin: auto;
+}
+
+#banner {
+	height: 117px;
+	background-color: #FAFEA9;
+	margin: 10px;
+	background-image: url(../images/Banner.PNG);
+	border: 5px solid #92B40C;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#globalNavigation {
+	float: left;
+	width: 130px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	background-color: #FAFEA9;
+	color: #000;
+	text-align: center;
+	border: 3px solid #DC790C;
+}
+#globalNavigation img {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+#mainContent {
+	float: left;
+	width: 960px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	background-color: #92B40C;
+	padding-bottom: 10px;
+	clear: right;
+}
+
+#footer {
+	background-color: #92B40C;
+	clear: both;
+	margin: 10px;
+	text-align: center;
+	font-size: 18px;
+	color: #FFF;
+}
+
+
+.email {
+	color: #FFF;
+	text-decoration: underline;
+}
+.cursiveHeading {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 45px;
+	font-style: italic;
+	text-align: center;
+	color: #88A80B;
+	clear: none;
+}
+.cursiveSubheading {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: italic;
+	text-align: center;
+	color: #88A80B;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	clear: both;
+}
+.imgRight {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border: 3px solid #DC790C;
+}
+.imgLeft {
+	float: left;
+	border: 3px solid #DC790C;
+	background-color: #FAFEA9;
+	clear: both;
+}
